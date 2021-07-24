@@ -26,11 +26,11 @@ request.onerror = function (event) {
   console.log(event.target.errorCode);
 };
 
-function saveRecord(record){
+function saveRecord(record) {
   const transaction = db.transaction(["new_item"], "readwrite");
   const budgetObjectStore = transaction.objectStore("new_item");
 
-  budgetObjectStore.add(record)
+  budgetObjectStore.add(record);
 }
 // This function will be executed if we attempt to submit a new item and there's no internet connection
 function checkDB() {
