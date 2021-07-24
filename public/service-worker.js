@@ -6,8 +6,8 @@ const DATA_CACHE_NAME = "data-cache-v1";
 const FILES_TO_CACHE = [
   "./index.html",
   "./css/styles.css",
-  "./js/idb.js",
-  "./js/index.js",
+  "js/idb.js",
+  "js/index.js",
 ];
 
 // Respond with cached resources
