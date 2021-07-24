@@ -1,12 +1,14 @@
 body {
   font-size: 120%;
   font-family: Lucida Bright;
+  background-color: azure;
 }
 
 button,
 input {
   font-size: 100%;
   font-family: Lucida Bright;
+  border-radius: 50%;
 }
 
 table {
