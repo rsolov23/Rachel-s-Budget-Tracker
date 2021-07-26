@@ -8,6 +8,7 @@ button,
 input {
   font-size: 100%;
   font-family: Lucida Bright;
+  border-radius: 0%;
 }
 
 table {
