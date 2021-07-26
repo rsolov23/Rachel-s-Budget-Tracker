@@ -46,7 +46,7 @@
   "orientation": "portrait",
   "display": "standalone",
   "start_url": ".",
-  "description": "An app that allows you to view upcoming food events.",
+  "description": "An app that allows you to track your budget",
   "background_color": "#ABB9C4",
   "theme_color": "#7B8FA3"
 }
